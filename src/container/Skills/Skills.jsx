@@ -25,7 +25,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <>
+    <div id="skills">
       <h2 className="head-text">
         <span>Skills</span> & Experience
       </h2>
@@ -79,7 +79,7 @@ const Skills = () => {
           ))}
         </motion.div>
       </div>
-    </>
+    </div id="skills">
   );
 };
 

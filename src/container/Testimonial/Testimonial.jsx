@@ -31,7 +31,7 @@ const Testimonial = () => {
   const test = testimonials[currentIndex];
 
   return (
-    <>
+    <div id='testimonial'>
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
@@ -84,7 +84,7 @@ const Testimonial = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
