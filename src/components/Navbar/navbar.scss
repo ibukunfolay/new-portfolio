@@ -95,7 +95,7 @@
     height: 70%;
     color: var(--white-color);
     cursor: pointer;
-    pointer-events: none;
+    pointer-events: all;
   }
 
   div {
@@ -128,7 +128,7 @@
       color: var(--secondary-color);
       margin: 0.5em 1em;
       cursor: pointer;
-      pointer-events: none;
+      pointer-events: all;
     }
 
     ul {
