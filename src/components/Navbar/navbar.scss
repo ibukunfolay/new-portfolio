@@ -99,12 +99,12 @@
 
   div {
     position: fixed;
-    top: 10px;
+    top: 0;
     bottom: 0;
     right: 0;
     z-index: 5;
 
-    padding: 1em;
+    padding: 5em 1em 0;
 
     width: 50%;
     height: 100vh;
