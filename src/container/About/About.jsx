@@ -30,7 +30,7 @@ const abouts = [
 
 const About = () => {
   return (
-    <>
+    <div id="about">
       <h2 className="head-text">
         High Quality <span>Code</span>
       </h2>
@@ -54,7 +54,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

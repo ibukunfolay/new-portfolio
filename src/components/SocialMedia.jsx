@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsTwitter, BsGithub } from 'react-icons/bs';
-import { TbBrandLinkedin } from 'react-icons/tb';
+import { FaLinkedin } from 'react-icons/fa';
 import { HiDocumentText } from 'react-icons/hi';
 
 const SocialMedia = () => {
@@ -11,7 +11,7 @@ const SocialMedia = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <TbBrandLinkedin />
+        <FaLinkedin />
       </a>
       <a
         href="https://www.github.com/ibukunfolay"
