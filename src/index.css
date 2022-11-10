@@ -17,4 +17,6 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  scrollbar-color: var(--gray-color) var(--primary-color);
+  scrollbar-width: 11px;
 }
