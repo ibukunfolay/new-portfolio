@@ -68,6 +68,7 @@ const Footer = () => {
               placeholder="Your Name"
               name="name"
               value={name}
+              required={true}
               onChange={handleChange}
             />
           </div>
@@ -78,6 +79,7 @@ const Footer = () => {
               placeholder="Your Email"
               name="email"
               value={email}
+              required={true}
               onChange={handleChange}
             />
           </div>
@@ -85,6 +87,7 @@ const Footer = () => {
             <textarea
               name="message"
               value={message}
+              required={true}
               onChange={handleChange}
               placeholder="Your Message"
               className="p-text"
