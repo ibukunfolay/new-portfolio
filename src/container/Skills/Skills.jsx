@@ -51,7 +51,7 @@ const Skills = () => {
         </motion.div>
 
         <motion.div className="app__skills-exp">
-          {experiences?.map((experience, i) => (
+          {experiences?.sort((a, b) => a.year > b.year ? 1 : -1).map((experience, i) => (
             <motion.div className="app__skills-exp-item" key={i}>
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
