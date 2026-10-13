@@ -28,7 +28,7 @@ const SocialMedia = () => {
         <BsTwitter />
       </a>
       <a
-        href="https://drive.google.com/file/d/1c49_rr0TR5L106IHtj-rLL1c11wdIOnT/view?usp=sharing"
+        href="https://drive.google.com/file/d/19N1A1j2tyWLVWOPtv1_HQfDpMrUL2sML/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
